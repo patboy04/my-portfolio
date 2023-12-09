@@ -8,9 +8,6 @@
     body {
         @apply font-['Poppins'];
     }
-    h1 {
-        @apply text-7xl
-    }
     li {
         @apply px-4;
         @apply cursor-pointer;

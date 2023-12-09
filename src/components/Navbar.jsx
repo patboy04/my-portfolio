@@ -19,7 +19,7 @@ const Navbar = () => {
                 <li>About</li>
                 <li>Skills</li>
                 <li>Projects</li>
-                <li>Contact Me</li>
+                <li>Contact</li>
                 <li>
                     <a href='https://github.com/patboy04'>
                         <FaGithub size={25}/>
@@ -44,7 +44,7 @@ const Navbar = () => {
                 <li className='text-5xl py-4 hover:text-6xl duration-300'>About</li>
                 <li className='text-5xl py-4 hover:text-6xl duration-300'>Projects</li>
                 <li className='text-5xl py-4 hover:text-6xl duration-300'>Skills</li>
-                <li className='text-5xl py-4 hover:text-6xl duration-300'>Contact Me</li>
+                <li className='text-5xl py-4 hover:text-6xl duration-300'>Contact</li>
                 <div className='flex'>
                     <li>
                         <a href='https://github.com/patboy04' >
