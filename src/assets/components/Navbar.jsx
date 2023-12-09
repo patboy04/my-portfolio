@@ -39,7 +39,7 @@ const Navbar = () => {
                     : <GiHamburgerMenu size={30}/>
                 }
             </div>
-            <ul className={showMobileNavbar ? "md:hidden absolute top-100 left-0 w-[100vw] h-[75vh] flex flex-col justify-center items-center" : "hidden"}>
+            <ul className={showMobileNavbar ? "md:hidden bg-white absolute top-100 left-0 w-[100vw] h-[75vh] flex flex-col justify-center items-center" : "hidden"}>
                 <li className='text-5xl py-4 hover:text-6xl duration-300'>Home</li>
                 <li className='text-5xl py-4 hover:text-6xl duration-300'>About</li>
                 <li className='text-5xl py-4 hover:text-6xl duration-300'>Projects</li>
