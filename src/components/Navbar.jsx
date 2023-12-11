@@ -31,8 +31,16 @@ const Navbar = () => {
                         Skills
                     </Link>
                 </li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li>
+                    <Link to="projects" smooth={true} duration={500}>
+                        Projects
+                    </Link>
+                </li>
+                <li>
+                    <Link to="contact" smooth={true} duration={500}>
+                        Contact
+                    </Link>
+                </li>
                 <li>
                     <a href='https://github.com/patboy04'>
                         <FaGithub size={25}/>
@@ -53,11 +61,31 @@ const Navbar = () => {
                 }
             </div>
             <ul className={showMobileNavbar ? "md:hidden bg-white absolute top-100 left-0 w-[100vw] h-[75vh] flex flex-col justify-center items-center" : "hidden"}>
-                <li className='text-5xl py-4 hover:text-6xl duration-300'>Home</li>
-                <li className='text-5xl py-4 hover:text-6xl duration-300'>About</li>
-                <li className='text-5xl py-4 hover:text-6xl duration-300'>Projects</li>
-                <li className='text-5xl py-4 hover:text-6xl duration-300'>Skills</li>
-                <li className='text-5xl py-4 hover:text-6xl duration-300'>Contact</li>
+                <li className='text-5xl py-4 hover:text-6xl duration-300'>
+                    <Link to="home" smooth={true} duration={500}>
+                        Home
+                    </Link>
+                </li>
+                <li className='text-5xl py-4 hover:text-6xl duration-300'>
+                    <Link to="about" smooth={true} duration={500}>
+                        About
+                    </Link>
+                </li>
+                <li className='text-5xl py-4 hover:text-6xl duration-300'>
+                    <Link to="skills" smooth={true} duration={500}>
+                        Skills
+                    </Link>
+                </li>
+                <li className='text-5xl py-4 hover:text-6xl duration-300'>
+                    <Link to="projects" smooth={true} duration={500}>
+                        Projects
+                    </Link>
+                </li>
+                <li className='text-5xl py-4 hover:text-6xl duration-300'>
+                    <Link to="contact" smooth={true} duration={500}>
+                        Contact
+                    </Link>
+                </li>
                 <div className='flex'>
                     <li>
                         <a href='https://github.com/patboy04' >
