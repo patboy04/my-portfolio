@@ -11,7 +11,7 @@ const Navbar = () => {
     };
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 shadow-lg bg-white'>
+    <div className='fixed w-full h-[80px] z-50 flex justify-between items-center px-4 shadow-lg bg-white'>
         <img />
         <div>
             {/*web element*/}
@@ -22,7 +22,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link to="about" smooth={true} duration={500}>
+                    <Link to="about" smooth={true} duration={500} offset={25}>
                         About
                     </Link>
                 </li>
@@ -60,29 +60,29 @@ const Navbar = () => {
                     : <GiHamburgerMenu size={30}/>
                 }
             </div>
-            <ul className={showMobileNavbar ? "md:hidden bg-white absolute top-100 left-0 w-[100vw] h-[75vh] flex flex-col justify-center items-center" : "hidden"}>
+            <ul className={showMobileNavbar ? "md:hidden bg-white absolute top-100 left-0 w-[100vw] h-[100vh] flex flex-col justify-center items-center" : "hidden"}>
                 <li className='text-5xl py-4 hover:text-6xl duration-300'>
-                    <Link to="home" smooth={true} duration={500}>
+                    <Link to="home" onClick={handleClick} smooth={true} duration={1000}>
                         Home
                     </Link>
                 </li>
                 <li className='text-5xl py-4 hover:text-6xl duration-300'>
-                    <Link to="about" smooth={true} duration={500}>
+                    <Link to="about" onClick={handleClick} smooth={true} duration={1000}>
                         About
                     </Link>
                 </li>
                 <li className='text-5xl py-4 hover:text-6xl duration-300'>
-                    <Link to="skills" smooth={true} duration={500}>
+                    <Link to="skills" onClick={handleClick} smooth={true} duration={1000}>
                         Skills
                     </Link>
                 </li>
                 <li className='text-5xl py-4 hover:text-6xl duration-300'>
-                    <Link to="projects" smooth={true} duration={500}>
+                    <Link to="projects" onClick={handleClick} smooth={true} duration={1000}>
                         Projects
                     </Link>
                 </li>
                 <li className='text-5xl py-4 hover:text-6xl duration-300'>
-                    <Link to="contact" smooth={true} duration={500}>
+                    <Link to="contact" onClick={handleClick} smooth={true} duration={1000}>
                         Contact
                     </Link>
                 </li>
