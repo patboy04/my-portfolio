@@ -16,48 +16,48 @@ const Projects = () => {
           <h1 className='text-2xl sm:4-xl xl:text-5xl font-medium'>{project.name}</h1>
           <p className='text-xs sm:text-base xl:text-lg mt-5'>{project.date}</p>
           <p className='text-sm sm:text-lg xl:text-xl font-light mt-2'>{project.description}</p>
-          <div className='relative flex items-center gap-5 mt-10 xl:mt-auto'>
-            {project.tech.map(tech => {
+          <div className='grid grid-cols-3 sm:grid-cols-4 xl:grid-cols-5 gap-10 sm:gap-x-20 mt-10 xl:mt-auto'>
+            {project.tech.map((tech, index) => {
               let icon;
               switch (tech) {
                 case 'html':
-                  icon = <FaHtml5 size={60}/>;
+                  icon = <FaHtml5 key={index} size={60}/>;
                   break;
                 case 'css':
-                  icon = <FaCss3Alt size={60}/>;
+                  icon = <FaCss3Alt key={index} size={60}/>;
                   break;
                 case 'js':
-                  icon = <IoLogoJavascript size={60}/>;
+                  icon = <IoLogoJavascript key={index} size={60}/>;
                   break;
                 case 'react':
-                  icon = <FaReact size={60}/>;
+                  icon = <FaReact key={index} size={60}/>;
                   break;
                 case 'java':
-                  icon = <FaJava size={60}/>;
+                  icon = <FaJava key={index} size={60}/>;
                   break;
                 case 'mysql':
-                  icon = <SiMysql size={60}/>;
+                  icon = <SiMysql key={index} size={60}/>;
                   break;
                 case 'heroku':
-                  icon = <GrHeroku size={60}/>;
+                  icon = <GrHeroku key={index} size={60}/>;
                   break;
                 case 'notion':
-                  icon = <RiNotionFill size={60}/>;
+                  icon = <RiNotionFill key={index} size={60}/>;
                   break;
                 case 'flutter':
-                  icon = <SiFlutter size={60}/>;
+                  icon = <SiFlutter key={index} size={60}/>;
                   break;
                 case 'dart':
-                  icon = <SiDart size={60}/>;
+                  icon = <SiDart key={index} size={60}/>;
                   break;
                 case 'python':
-                  icon = <FaPython size={60}/>;
+                  icon = <FaPython key={index} size={60}/>;
                   break;
                 case 'numpy':
-                  icon = <SiNumpy size={60}/>;
+                  icon = <SiNumpy key={index} size={60}/>;
                   break;
                 case 'jupyter':
-                  icon = <SiJupyter size={60}/>;
+                  icon = <SiJupyter key={index} size={60}/>;
                   break;
               }
               return icon;
