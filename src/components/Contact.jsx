@@ -30,10 +30,12 @@ const Contact = () => {
             </span>
         </CopyToClipboard>
         {clipboardState && <p>Copied to Clipboard!</p>}
-        <button className='w-[200px] md:w-[35vw] text-sm md:text-2xl border-2 border-[#059669] rounded-lg p-4 my-4 flex justify-center items-center gap-2 hover:bg-[#059669] hover:scale-110 duration-200'>
-            Download my CV
-            <IoDocumentText size={30}/>
-        </button>
+        <a href='https://drive.google.com/file/d/1vCXZYMEtIW1Dh68cjGuXcRZBhjAGZG2S/view?usp=sharing'>
+            <button className='w-[200px] md:w-[35vw] text-sm md:text-2xl border-2 border-[#059669] rounded-lg p-4 my-4 flex justify-center items-center gap-2 hover:bg-[#059669] hover:scale-110 duration-200'>
+                Download my CV
+                <IoDocumentText size={30}/>
+            </button>
+        </a>
     </div>
   )
 }

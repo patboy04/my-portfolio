@@ -27,14 +27,14 @@ const About = () => {
             <div className='flex gap-4 justify-center text-[#034c23] overflow-hidden'>
               {renderMotto}
             </div>
-            <p className='text-sm px-5 pt-10 text-justify text-[#059669] md:text-lg md:mx-20'>
+            <p className='text-sm px-5 pt-10 text-justify d:text-lg md:mx-20'>
               Hi! I'm John Patrick Lacsamana, 
               A Computer Science Graduate from the <span className='text-[#FCCC4C]'>University of Santo Tomas</span>. 
               I specialize in software and web development. I like building mobile and web-apps and I'm also interested in 
               Machine Learning.
             </p>
             <br></br>
-            <p className='text-sm px-5 pb-10 text-justify text-[#059669] md:text-lg md:mx-20'>
+            <p className='text-sm px-5 pb-10 text-justify md:text-lg md:mx-20'>
               I have always been a keen problem solver and I enjoy creating innovative solutions to problems regardless if its
               tech related or not. I believe that we should always keep on learning, whether it be learning new 
               technologies or honing my existing skillset.
