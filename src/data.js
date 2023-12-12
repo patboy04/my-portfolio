@@ -12,6 +12,7 @@ export default [
         "The database includes a CRUD system as well as a printable log of the database.",
         image: ndcisImg,
         date: "August 2021 - May 2022",
+        tech: ["html", "css", "js", "react", "java", "mysql", "heroku", "notion"]
     },
     {
         id: 1,
@@ -21,6 +22,7 @@ export default [
         "a queueing system with priority queues for elderly/diasbled people.",
         image: stepsImg,
         date: "January 2023 - May 2023",
+        tech: ["html", "css", "js", "java", "mysql"]
     },
     {
         id: 2,
@@ -30,6 +32,7 @@ export default [
         "and calculate differents statistics of the character using api calls and JSON data.",
         image: genshinImg,
         date: "October 2021 - December 2021",
+        tech: ["dart", "flutter", "js"]
     },
     {
         id: 3,
@@ -39,5 +42,6 @@ export default [
         "and Image segmentation. The model will produce a classification whether Normal or Pneumonia.",
         image: thesisImg,
         date: "January 2022 - December 2022",
+        tech: ["python", "numpy", "jupyter"]
     }
 ]

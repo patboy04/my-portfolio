@@ -11,7 +11,7 @@ import flutter from "../assets/flutter.png"
 const Skills = () => {
   return (
     <div name='skills' className='w-full min-h-screen bg-[#D1FAE5] flex flex-col py-4 md:py-20'>
-        <h1 className='text-center text-4xl sm:text-7xl py-2 md:py-8 text-[#059669]'>My Skills</h1>
+        <h1 className='text-center text-4xl sm:text-7xl py-2 md:py-8'>My Skills</h1>
         <div className='grid grid-cols-2 grid-rows-4 xl:grid-cols-4 xl:grid-rows-2 gap-6 lg:gap-y-10 justify-items-center px-16 lg:px-10 py-8 lg:py-5'>
             <div className='shadow-md shadow-[#059669] hover:scale-110 duration-500 p-2'>
                 <img src={html} className='w-28'/>

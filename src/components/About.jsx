@@ -27,7 +27,7 @@ const About = () => {
             <div className='flex gap-4 justify-center text-[#034c23] overflow-hidden'>
               {renderMotto}
             </div>
-            <p className='text-sm px-5 pt-10 text-justify d:text-lg md:mx-20'>
+            <p className='text-sm px-5 pt-10 text-justify md:text-lg md:mx-20'>
               Hi! I'm John Patrick Lacsamana, 
               A Computer Science Graduate from the <span className='text-[#FCCC4C]'>University of Santo Tomas</span>. 
               I specialize in software and web development. I like building mobile and web-apps and I'm also interested in 

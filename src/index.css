@@ -15,7 +15,6 @@
     }
     h6 {
         @apply text-center;
-        @apply text-[#059669];
         @apply font-bold;
         @apply pt-4;
     }
