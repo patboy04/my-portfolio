@@ -16,6 +16,7 @@ const Projects = () => {
           <h1 className='text-2xl sm:4-xl xl:text-5xl font-medium'>{project.name}</h1>
           <p className='text-xs sm:text-base xl:text-lg mt-5'>{project.date}</p>
           <p className='text-sm sm:text-lg xl:text-xl font-light mt-2'>{project.description}</p>
+          <p className='text-sm sm:text-lg xl:text-xl font-bold my-2 '>{project.role}</p>
           <div className='grid grid-cols-3 sm:grid-cols-4 xl:grid-cols-5 gap-10 sm:gap-x-20 mt-10 xl:mt-auto'>
             {project.tech.map((tech, index) => {
               let icon;
